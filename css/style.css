@@ -183,6 +183,20 @@ color: #fff;
     opacity: 0.9;
 }
 
+/* Inner page grid container */
+
+.page-container
+{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    margin: 2rem 0;
+    grid-gap: 1.5rem;
+}
+
+.page-container > *:first-child
+{
+    grid-row: 1 /span 3; /* 2/span3 ? */
+}
 
 
 /* Navigation Bar */
@@ -313,7 +327,7 @@ color: #fff;
 }
 
 
-/* Fotter */
+/* Footer */
 
 #main-footer
 {
