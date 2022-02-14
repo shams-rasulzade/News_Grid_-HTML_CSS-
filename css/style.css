@@ -152,6 +152,10 @@ color: #fff;
     color: #fff;
 }
 
+.l-heading
+{
+    font-size: 3rem;
+}
 
 
 
@@ -325,6 +329,22 @@ color: #fff;
 {
     grid-column: 2 / span 2;
 }
+
+
+#article .meta
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eee;
+    padding: 0.5rem;
+}
+
+#article .meta .category
+{
+    margin-top: 0.5rem;
+}
+
 
 
 /* Footer */
